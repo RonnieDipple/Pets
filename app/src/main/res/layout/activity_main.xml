@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".MainActivity">
+
+    <ScrollView android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/scroll_pets"
+                android:layout_gravity="center">
+
+        <LinearLayout android:layout_width="match_parent"
+                      android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/pets_names_title"
+                    android:layout_gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Pets Names"
+                    android:textSize="50sp"/>
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/boris"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dog: Boris"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/sam"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dog: Sam"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/jeb"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dog: Jeb"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/Kip"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dog: Kip"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/norman"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cat: Norman"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/bluey"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Rabbit: bluey"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/biff"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cat: Biff"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/mins"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cat: Mins"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/champagne"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dog: Champagne"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/digby"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Cat: Digby"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/romi"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Dog: Romy"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/white"
+                    android:textColor="@android:color/black"
+                    android:textStyle="bold"
+                    android:id="@+id/animals"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Animals I want as pets"
+                    android:textSize="35sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/whale"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="whale"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/tiger"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="tiger"
+                    android:textSize="50sp"
+            />
+
+            <TextView
+                    android:background="@android:color/black"
+                    android:textColor="@android:color/white"
+                    android:textStyle="bold"
+                    android:id="@+id/alien_dog"
+                    android:layout_gravity="center"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Alien Dog"
+                    android:textSize="50sp"
+            />
+
+
+
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</LinearLayout>
